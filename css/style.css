@@ -1,0 +1,351 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  
+  /* background color */
+  
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(215deg, #23588d 33%, #2e0e45 66%, #27305e 99%);
+    animation: gradient 90s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+  }
+  
+  
+  @keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+  }
+  
+  
+  /* background color ~ end ~ */
+
+
+
+
+  :root{
+    --bBlue: #27305e;
+    --violet: #593e79;
+    --violet2: #2e0e45;
+    --violet3: rgba(101,0,94,1);
+    --blue: #3377bb;
+    --wtBlue: rgba(48,238,226,1);
+    --pink: rgb(211, 7, 177);
+    --transparent: #eeeeee18;
+    --whiteLite: #ffffffe0;
+}
+
+
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    /* background-color: red; */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+    color: #fff;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.logo{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-wrap: nowrap;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+}
+.list .link{
+    margin: 0 10px;
+    font-size: 1.35rem;
+    transition: all .3s ease;
+    font-weight: 300;
+    display: flex;
+}
+.list .link a{
+    text-decoration: none;
+    color: #ffffff9c;
+    transition: all .3s ease;
+    padding: 8px 16px;
+    font-weight: 300;
+    border-radius: 20px;
+}
+
+.list .link a:hover{
+    font-size: 1.4rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    color: #ffffffe0;
+}
+
+.toggle{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -100px;
+    cursor: pointer;
+}
+
+
+.infoBlock{
+    margin: 25px 50px;
+    background-color: var(--transparent);
+    border-radius: 15px;
+    height: 8rem;
+    color: #ffffffe0;
+}
+
+.infoBlock p{
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
+
+.prew img{
+    width: 350px;
+    height: 350px;
+    display: flex;
+}
+
+.prew p{
+    display: grid;
+    color: var(--whiteLite);
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+}
+
+.prew{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: right;
+    margin: 30px 0;
+}
+
+
+.footer{
+    height: 12rem;
+    background-color: var(--transparent);
+    display: flex;
+}
+.footerList{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 100%;
+    color: var(--whiteLite);
+}
+.footerBlock{
+    padding: 20px;
+    background-color: var(--transparent);
+    border-radius: 15px;
+    margin: 10px 10px 0 10px;
+    display: grid;
+    align-items: center;
+}
+
+.footerBlock .FBTitle{
+    display: grid;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* ---------- PRODUCTS ---------- */
+
+
+
+.listProduct{
+    display: grid;
+    text-align-last: left;
+}
+
+.blockProduct{
+    width: 100%;
+
+    background-color: var(--transparent);
+    margin: 25px 0;
+    border-radius: 10px;
+    color: #ffffffe0;
+    padding: 20px;
+}
+
+.nameProduct{
+    border-bottom: var(--whiteLite) solid 3px;
+    padding: 0 20px;
+    margin: 0 40px 0 10px;
+    width: 70%;
+}
+
+.ilustrationsProduct{
+    position: relative;
+    margin: -400px 0 0 790px;
+}
+.titleProduct{
+    margin: 15px 0;
+    width: 70%;
+}
+.textProduct{
+    margin: 15px 0;
+    width: 75%;
+}
+.functionsProduct{
+    display: grid;
+    margin: 5px 20px;
+    font-size: 1.5rem;
+}
+
+
+.blockProduct img{
+    display: grid;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* ---------- PRICING ---------- */
+
+.pricingTitle{
+    margin: 25px 50px;
+    background-color: var(--transparent);
+    border-radius: 15px;
+    height: 8rem;
+}
+
+.pricingTitle p{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: var(--whiteLite);
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.priceList{
+    display: flex;
+    margin: 25px 0;
+    border-radius: 5px;
+    height: 22rem;
+}
+
+.priceBlock{
+    width: 100%;
+    margin: 0 30px;
+    padding: 0 20px;
+    display: grid;
+    text-align: center;
+    color: var(--whiteLite);
+    align-items: center;
+    background-color: var(--transparent);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+
+.priceBlock .nameAI{
+    font-size: 1.4rem;
+}
+.priceBlock .priceAI{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+}
+.priceBlock button{
+    border: none;
+    background-color: var(--transparent);
+    width: 50%;
+    margin: 0 auto;
+    height: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff9c;
+    transition: all .3s ease;
+    
+}
+
+.priceBlock button:hover{
+    width: 52%;
+    height: 2.2rem;
+    color: #ffffffe0;
+    font-weight: 700;
+    text-shadow: 
+		-0   -2px 0   rgba( 0, 0, 0, 0.1 ),
+		 0   -2px 0   rgba( 0, 0, 0, 0.1 ),
+		-0    2px 0   rgba( 0, 0, 0, 0.1 ),
+		 0    2px 0   rgba( 0, 0, 0, 0.1 ),
+		-2px -0   0   rgba( 0, 0, 0, 0.1 ),
+		 2px -0   0   rgba( 0, 0, 0, 0.1 ),
+		-2px  0   0   rgba( 0, 0, 0, 0.1 ),
+		 2px  0   0   rgba( 0, 0, 0, 0.1 ),
+		-1px -2px 0   rgba( 0, 0, 0, 0.1 ),
+		 1px -2px 0   rgba( 0, 0, 0, 0.1 ),
+		-1px  2px 0   rgba( 0, 0, 0, 0.1 ),
+		 1px  2px 0   rgba( 0, 0, 0, 0.1 ),
+		-2px -1px 0   rgba( 0, 0, 0, 0.1 ),
+		 2px -1px 0   rgba( 0, 0, 0, 0.1 ),
+		-2px  1px 0   rgba( 0, 0, 0, 0.1 ),
+		 2px  1px 0   rgba( 0, 0, 0, 0.1 ),
+		-2px -2px 0   rgba( 0, 0, 0, 0.1 ),
+		 2px -2px 0   rgba( 0, 0, 0, 0.1 ),
+		-2px  2px 0   rgba( 0, 0, 0, 0.1 ),
+		 2px  2px 0   rgba( 0, 0, 0, 0.1 ),
+		-2px -2px 0   rgba( 0, 0, 0, 0.1 ),
+		 2px -2px 0   rgba( 0, 0, 0, 0.1 ),
+		-2px  2px 0   rgba( 0, 0, 0, 0.1 ),
+		 2px  2px 0   rgba( 0, 0, 0, 0.1 );
+}
+
+
+

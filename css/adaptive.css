@@ -1,0 +1,247 @@
+
+
+
+
+:root{
+    --bBlue: #27305e;
+    --violet: #593e79;
+    --violet2: #2e0e45;
+    --violet3: rgba(101,0,94,1);
+    --blue: #3377bb;
+    --wtBlue: rgba(48,238,226,1);
+    --pink: rgb(211, 7, 177);
+    --transparent: #eeeeee18;
+    --whiteLite: #ffffffe0;
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+}
+
+
+@media only screen and (max-width: 768px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .toggle{
+        top: 10px;
+        right: 15px;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .logo{
+        position: absolute;
+        top: 20px;
+    }
+
+    .list.active{
+        display: grid;
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        height: 20%;
+    }
+
+    .header.active{
+        height: 14rem;
+    }
+
+    .infoBlock{
+        height: 15rem;
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    .infoBlock p{
+        font-size: 1.5rem;
+    }
+
+    .prew img{
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+    .pricingTitle{
+        margin: 25px 0;
+        height: 15rem;
+    }
+
+    .priceList{
+        display: grid;
+        margin: 25px auto;
+        height: 50rem;
+    }
+
+    .priceBlock{
+        width: 90%;
+        margin: 30px auto;
+        padding: 10px 20px;
+        height: 12rem;
+    }
+
+    .listProduct{
+        display: grid;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .nameProduct{
+        font-size: 1.5rem;
+        margin: 0 40px 0 0;
+        padding: 5px 5px;
+        width: 90%;
+    }
+    
+    .blockProduct{
+        width: 90%;
+        margin: 30px auto;
+    }
+    .ilustrationsProduct{
+        margin: 0;
+    }
+
+
+
+
+
+
+    .footer{
+        display: grid;
+        height: 25rem;
+        justify-content: center;
+        width: 100%;
+    }
+    .footerList{
+        display: grid;
+        width: 100%;
+    }
+    .footerBlock{
+        width: 100%;
+        margin: 10px 10px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .toggle{
+        top: 10px;
+        right: 15px;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .logo{
+        position: absolute;
+        top: 20px;
+    }
+
+    .list.active{
+        display: grid;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 50%;
+        height: 20%;
+        justify-content: center;
+    }
+
+    .header.active{
+        height: 14rem;
+    }
+
+    .infoBlock{
+        height: 15rem;
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    .infoBlock p{
+        font-size: 1.5rem;
+    }
+
+    .prew img{
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+    .pricingTitle{
+        margin: 25px 0;
+        height: 15rem;
+    }
+
+    .priceList{
+        display: grid;
+        margin: 25px auto;
+        height: 45rem;
+    }
+
+    .priceBlock{
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .listProduct{
+        display: grid;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .nameProduct{
+        font-size: 1rem;
+        margin: 0 40px 0 0;
+        padding: 5px 5px;
+    }
+
+    .blockProduct{
+        width: 90%;
+        margin: 30px auto;
+    }
+    .blockProduct img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .ilustrationsProduct{
+        margin: 0;
+    }
+
+
+
+
+
+    .footer{
+        display: grid;
+        height: 30rem;
+        justify-content: center;
+        width: 100%;
+    }
+    .footerList{
+        display: grid;
+        width: 90%;
+    }
+    .footerBlock{
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 320px){
+
+}
